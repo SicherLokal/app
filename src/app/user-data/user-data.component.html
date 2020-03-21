@@ -1,1 +1,31 @@
-<p>user-data works!</p>
+<h2>
+  Personenangaben
+</h2>
+
+<p>
+  Um deine Bestellung zuzuordnen, benötigen wir noch einige Angaben von dir.
+</p>
+
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Vorname</mat-label>
+    <input matInput placeholder="">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Nachname</mat-label>
+    <textarea matInput placeholder=""></textarea>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Telefonnummer/Email</mat-label>
+    <textarea matInput placeholder=""></textarea>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Ab wann kannst du das Paket heute abholen?</mat-label>
+    <textarea matInput placeholder=""></textarea>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="goToPaymentSelection()">Weiter</button>
+</form>
