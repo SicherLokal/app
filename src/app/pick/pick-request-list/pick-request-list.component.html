@@ -1,0 +1,7 @@
+<mat-nav-list>
+    <a mat-list-item *ngFor="let pickRequest of pickRequests | async" [routerLink]="['/pick/request/' + pickRequest.id]">
+        <span> {{ pickRequest.id }} </span>
+        <span class="spacer"></span>
+        <span><mat-icon>arrow_forward</mat-icon></span>
+    </a>
+</mat-nav-list>

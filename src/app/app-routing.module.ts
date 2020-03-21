@@ -6,10 +6,14 @@ import { UserDataComponent } from './user-data/user-data.component';
 
 
 const routes: Routes = [
-    { path: '', redirectTo: '/location', pathMatch: 'full' },
-    { path: 'location', component: UserLocationComponent },
-    { path: 'product-list', component: CategoryListComponent },
-    { path: 'user-data', component: UserDataComponent }
+  { path: '', redirectTo: '/location', pathMatch: 'full' },
+  { path: 'location', component: UserLocationComponent },
+  { path: 'product-list', component: CategoryListComponent },
+  { path: 'user-data', component: UserDataComponent },
+  {
+    path: 'pick',
+    loadChildren: () => import('./pick/pick.module').then(m => m.PickModule),
+  }
 ];
 
 @NgModule({
