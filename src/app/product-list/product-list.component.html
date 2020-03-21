@@ -1,10 +1,5 @@
-
 <div>
-  Im Warenkorb: {{ this.getCartAmount() }}
-</div>
-
-<div>
-  <mat-card class="example-card" *ngFor="let product of productList" style="width:400px;  margin-bottom: 20px;">
+  <mat-card class="example-card" *ngFor="let product of productList" style="width:200px; margin-right:20px; float:left;  margin-bottom: 20px;">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>{{ product.name }}</mat-card-title>
@@ -20,4 +15,6 @@
       <button mat-button (click)="addToCart(product.id)">Add to cart</button>
     </mat-card-actions>
   </mat-card>
+
+  <div style="clear:both;"></div>
 </div>

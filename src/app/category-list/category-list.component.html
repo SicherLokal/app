@@ -1,0 +1,5 @@
+<div *ngFor="let category of categoryList">
+  <h2>{{ category }}</h2>
+
+  <app-product-list [category]="category" *ngIf="category"></app-product-list>
+</div>
