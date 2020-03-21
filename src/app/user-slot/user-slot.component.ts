@@ -10,7 +10,12 @@ export class UserSlotComponent implements OnInit {
   loaded: boolean
 
   constructor() {
-    this.loaded = true;
+    var that = this;
+    that.loaded = false;
+    
+    window.setTimeout(function() {
+      that.loaded = true;
+    }, 3000)
   }
 
   ngOnInit(): void {

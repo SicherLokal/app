@@ -19,6 +19,7 @@ import { PaymentSelectionComponent } from './payment-selection/payment-selection
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { UserSlotComponent } from './user-slot/user-slot.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { UserSlotComponent } from './user-slot/user-slot.component';
     MatFormFieldModule,
     MatButtonModule,
     MatIconModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
