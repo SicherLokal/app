@@ -19,6 +19,7 @@ import { PaymentSelectionComponent } from './payment-selection/payment-selection
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { UserSlotComponent } from './user-slot/user-slot.component';
+import { MarketTileComponent } from './user-location/market-tile/market-tile.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { UserSlotComponent } from './user-slot/user-slot.component';
     NavbarComponent,
     FooterComponent,
     PaymentSelectionComponent,
-    UserSlotComponent
+    UserSlotComponent,
+    MarketTileComponent
   ],
   imports: [
     BrowserModule,
