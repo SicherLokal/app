@@ -43,7 +43,11 @@ html, body { height: 100%; }
 body { 
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: $background-color-light;
-    
+    background-color: $background-color-light;    
+
+    .main-content {
+        min-height: calc(100% - (50px + 70px));
+        padding: 20px;
+    }
 }
 

@@ -1,11 +1,19 @@
-<h2>Wo wohnst du?</h2>
-
-<div>
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+<div class="location-intro">
+  <h2>Wo wohnst du?</h2>
+  <p>
+    Wir benötigen deine PLZ um Läden in deiner Nähe zu finden.
+  </p>
 </div>
-
-<div>
+<div class="location-input">
+  <span><img src="/assets/Icons/pin.png"></span>
   <input type="text" />
 </div>
-
-<button mat-button (click)="goToProductList()">Zur Produktliste</button>
+<div class="location-results">  
+  <app-market-tile title="Denn's Biomarkt" openedUntil="22 Uhr" distance="5 km" mat-button (click)="goToProductList()"></app-market-tile>
+  <app-market-tile title="Paul's Biomarkt" openedUntil="22 Uhr" distance="5 km" mat-button (click)="goToProductList()"></app-market-tile>
+  <app-market-tile title="Matthias Biomarkt" openedUntil="22 Uhr" distance="5 km" mat-button (click)="goToProductList()"></app-market-tile>
+  <app-market-tile title="Nils Biomarkt" openedUntil="22 Uhr" distance="5 km" mat-button (click)="goToProductList()"></app-market-tile>
+  <app-market-tile title="Armin's Biomarkt" openedUntil="22 Uhr" distance="5 km" mat-button (click)="goToProductList()"></app-market-tile>
+  <app-market-tile title="Fernando's Biomarkt" openedUntil="22 Uhr" distance="5 km" mat-button (click)="goToProductList()"></app-market-tile>
+  <app-market-tile title="Phil's Biomarkt" openedUntil="22 Uhr" distance="5 km" mat-button (click)="goToProductList()"></app-market-tile>
+</div>
