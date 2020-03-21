@@ -12,7 +12,7 @@ export class CartService {
   cart: CartItem[];
 
   constructor() { 
-    this.cart = [];
+    this.loadDataFromLocalStore();
   }
 
   findProduct(productId: string) {
@@ -37,6 +37,8 @@ export class CartService {
     else {
       foundProduct.amount++;
     }
+
+    this.saveDataToLocalStore();
   }
 
   removeProduct(productId: string) {
@@ -45,10 +47,28 @@ export class CartService {
     if (foundProduct) {
       foundProduct.amount--;
     }
+
+    this.saveDataToLocalStore();
   }
 
   getCart() {
     return this.cart;
   }
 
+
+
+  loadDataFromLocalStore(): void {
+    var loadedCart = localStorage.getItem("cart");
+
+    if (loadedCart) {
+      this.cart = JSON.parse(loadedCart);
+    }
+    else {
+      this.cart = [];
+    }
+  }
+
+  saveDataToLocalStore(): void {
+    localStorage.setItem("cart", JSON.stringify(this.cart));
+  }
 }
