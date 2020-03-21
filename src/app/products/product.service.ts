@@ -14,4 +14,8 @@ export class ProductService {
     return MOCK_PRODUCTS;
   }
 
+  getProduct(productId: string) {
+    return this.getProducts().find(p => p.id == productId);
+  }
+
 }
