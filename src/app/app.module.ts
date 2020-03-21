@@ -11,6 +11,7 @@ import { UserLocationComponent } from './user-location/user-location.component';
 import { UserDataComponent } from './user-data/user-data.component';
 import { CartComponent } from './cart/cart.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     UserLocationComponent,
     UserDataComponent,
     CartComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
