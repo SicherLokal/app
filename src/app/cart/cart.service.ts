@@ -51,8 +51,19 @@ export class CartService {
     this.saveDataToLocalStore();
   }
 
+  removeCartItem(cartItemId: string) {
+    this.cart = this.cart.filter(c => c.id != cartItemId);
+
+    this.saveDataToLocalStore();
+  }
+
   getCart() {
     return this.cart;
+  }
+
+  clearCart() {
+    this.cart = [];
+    this.saveDataToLocalStore();
   }
 
 

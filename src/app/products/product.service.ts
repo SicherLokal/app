@@ -10,7 +10,6 @@ export class ProductService {
   constructor() { }
 
   getProducts(category?: string): Product[] {
-    debugger;
     var productList = MOCK_PRODUCTS;
 
     if (category) {
