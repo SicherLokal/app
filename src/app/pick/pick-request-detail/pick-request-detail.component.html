@@ -1,3 +1,5 @@
 <mat-selection-list>
     <mat-list-option *ngFor="let item of items | async">{{ item.amount }}x {{ item.name }}</mat-list-option>
 </mat-selection-list>
+
+<button mat-raised-button color="primary" disabled>Complete</button>
