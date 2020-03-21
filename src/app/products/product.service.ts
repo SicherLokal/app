@@ -7,7 +7,6 @@ import { MOCK_PRODUCTS } from './mock-products';
 })
 
 export class ProductService {
-
   constructor() { }
 
   getProducts(): Product[] {
@@ -17,5 +16,4 @@ export class ProductService {
   getProduct(productId: string) {
     return this.getProducts().find(p => p.id == productId);
   }
-
 }

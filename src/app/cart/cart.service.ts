@@ -11,7 +11,9 @@ export class CartService {
 
   cart: CartItem[];
 
-  constructor() { }
+  constructor() { 
+    this.cart = [];
+  }
 
   findProduct(productId: string) {
     if (this.cart.length > 0) {
@@ -28,11 +30,13 @@ export class CartService {
       foundProduct = new CartItem();
       foundProduct.id = 'CartItem' + new Date().getTime();
       foundProduct.productId = productId;
-
+      foundProduct.amount = 1;
+      
       this.cart.push(foundProduct);
     }
-
-    foundProduct.amount++;
+    else {
+      foundProduct.amount++;
+    }
   }
 
   removeProduct(productId: string) {
