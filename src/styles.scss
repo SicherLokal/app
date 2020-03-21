@@ -28,5 +28,22 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
 /* You can add global styles to this file, and also import other style files */
 
+
+/* Defining some variables for color codes */
+
+$prime-color: #7DA747;
+$second-color: #D57030;
+
+$background-color-light: #F8F8F8;
+
+$section-color: #EEEEEE;
+
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: $background-color-light;
+    
+}
+
