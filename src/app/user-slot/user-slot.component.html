@@ -1,5 +1,10 @@
 <div *ngIf="!loaded">
-  not loaded
+  <div style="text-align: center; margin-top:30px;">
+    <div style="padding-bottom:10px;">
+      Bezahlung wird verarbeitet
+    </div>
+    <mat-spinner style="margin:0 auto;"></mat-spinner>
+  </div>
 </div>
 
 <div *ngIf="loaded">
@@ -11,4 +16,34 @@
     im Markt abholen. Zeige dem Marktpersonal bitte
     diesen Bildschirm!
   </p>
+
+  <mat-card class="slot-info-card">
+    <mat-card-content>
+      <div class="headline">Dein Markt</div>
+      <div>
+        Bio-Markt XYZ<br>
+        Musterstraße 26<br>
+        01283 Musterdorf
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="slot-info-card">
+    <mat-card-content>
+      <div class="headline">Deine Daten</div>
+      <div>
+        Einkaufs-ID: 57894<br>
+        Name: Max Mustermann
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="slot-info-card">
+    <mat-card-content>
+      <div class="headline">abholbereit ab:</div>
+      <div class="big-time">
+        15:00 Uhr
+      </div>
+    </mat-card-content>
+  </mat-card>
 </div>

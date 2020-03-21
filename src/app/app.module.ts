@@ -20,6 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { UserSlotComponent } from './user-slot/user-slot.component';
 import { MarketTileComponent } from './user-location/market-tile/market-tile.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
+
 
 @NgModule({
   declarations: [
@@ -44,7 +46,8 @@ import { MarketTileComponent } from './user-location/market-tile/market-tile.com
     MatFormFieldModule,
     MatButtonModule,
     MatIconModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
