@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-user-data',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-data.component.scss']
 })
 export class UserDataComponent implements OnInit {
+  router: Router;
 
-  constructor() { }
+  constructor(_router: Router) {
+    this.router = _router;
+  }
 
   ngOnInit(): void {
   }
 
+  goToPaymentSelection(): void {
+    this.router.navigate(['/payment-selection'])
+  }
 }

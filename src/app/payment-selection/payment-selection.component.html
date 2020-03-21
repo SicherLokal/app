@@ -1,0 +1,46 @@
+
+<form class="example-form">
+  <p style="text-align: center;">
+    Um Ihre Bestellung aufzugeben,
+    wählen Sie bitte eine der folgenden 
+    Zahlungsarten
+  </p>
+
+  <div style="display:flex; align-content:center;">
+    <mat-button-toggle-group #group="matButtonToggleGroup" style="margin:0 auto;">
+      <mat-button-toggle value="payment1" aria-label="Text align left">
+        Bargeld
+      </mat-button-toggle>
+      <mat-button-toggle value="center" aria-label="Text align right">
+        ApplePay
+      </mat-button-toggle>
+      <mat-button-toggle value="right" aria-label="Text align center">
+        Kreditkarte
+      </mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+
+  <h3 style="text-align:center;">
+    Einkäufe zusammenlegen?
+  </h3>
+
+  <p style="text-align:center;">
+    Haben Sie jemanden der auch gerade einkaufen geht 
+    und möchten Ihren Einkauf zusammenlegen?
+  </p>
+
+  <div style="width: 500px; margin:0 auto;">
+    <mat-form-field class="example-full-width">
+      <mat-label>Vor-/Nachname</mat-label>
+      <input matInput placeholder="">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Einkaufs-ID</mat-label>
+      <input matInput placeholder="">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="pay()">Weiter</button>
+  </div>
+
+</form>
