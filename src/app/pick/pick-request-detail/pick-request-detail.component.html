@@ -1,5 +1,7 @@
-<mat-selection-list>
+<h2>Picking {{ (request | async).id }}</h2>
+
+<mat-selection-list (selectionChange)="updateSelection($event)">
     <mat-list-option *ngFor="let item of items | async">{{ item.amount }}x {{ item.name }}</mat-list-option>
 </mat-selection-list>
 
-<button mat-raised-button color="primary" disabled>Complete</button>
+<button mat-raised-button color="primary" [disabled]="!(isCompletable | async)">Complete</button>
