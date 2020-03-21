@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: 'requests',
     component: PickRequestListComponent
+  },
+  {
+    path: '',
+    redirectTo: 'requests'
   }
 ];
 

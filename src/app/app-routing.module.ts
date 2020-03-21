@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'pick',
     loadChildren: () => import('./pick/pick.module').then(m => m.PickModule),
+  },
+  {
+    path: '',
+    loadChildren: () => import('./landing/landing.module').then(m => m.LandingModule),
   }
 ];
 
