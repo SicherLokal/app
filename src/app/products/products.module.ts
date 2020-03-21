@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ProductService } from './product.service';
 
 
 
@@ -9,4 +10,8 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ]
 })
-export class ProductsModule { }
+export class ProductsModule {
+  constructor(productService: ProductService) {
+    productService.getProducts();
+  }
+ }
