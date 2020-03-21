@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { UserLocationComponent } from './user-location/user-location.component';
 import { UserDataComponent } from './user-data/user-data.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UserDataComponent } from './user-data/user-data.component';
     ProductListComponent,
     CategoryListComponent,
     UserLocationComponent,
-    UserDataComponent
+    UserDataComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

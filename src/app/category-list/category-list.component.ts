@@ -31,7 +31,7 @@ export class CategoryListComponent implements OnInit {
     return amount;
   }
 
-  goToCheckout(): void {
-    this.router.navigate(['/user-data'])
+  goToCart(): void {
+    this.router.navigate(['/cart'])
   }
 }
