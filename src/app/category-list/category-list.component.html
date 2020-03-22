@@ -1,8 +1,5 @@
 <div class="shopping-content">
   <div class="product-list-tools"> 
-    <h3 class="cart-link" (click)="goToCart()">
-     Im Warenkorb: {{ this.getCartAmount() }}
-    </h3>
     <div class="product-filter">
       <span><img src="assets/Icons/search.png"></span>
       <input type="text" [(ngModel)]="filterKey" placeholder="Suche nach einem Artikel" />
@@ -18,7 +15,8 @@
 
   <!-- <button class="mat-raised-button payment-button" (click)="goToCheckout()">Weiter zur Dateneingabe</button> -->
 
-  <div class="cart-overlay" >
+  <div id="cart-overlay" class="cart-overlay"  >
+    <div class="overlay" (click)="toggleOverlay()"></div>
     <div class="cart">
       <app-cart></app-cart>
     </div>

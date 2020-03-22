@@ -3,8 +3,9 @@
         <div class="navbar-home-icon"><a [routerLink]="['/']"><img src="assets/Icons/basket.png"></a></div>
         <div class="navbar-title">SicherLokal</div>
     </div>
-    <div class="navbar-cart" ><img src="assets/Icons/shopping-cart.png"></div>
-    <span *ngIf="showCart | async">
-        <mat-icon [matBadge]="getCartAmount()">shopping_cart</mat-icon>
-    </span>
+    <div class="navbar-cart" >
+        <span (click)="toggleOverlay()" *ngIf="showCart | async">
+            <mat-icon [matBadge]="getCartAmount()">shopping_cart</mat-icon>
+        </span>
+    </div>    
 </header>

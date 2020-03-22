@@ -39,4 +39,15 @@ export class CategoryListComponent implements OnInit {
   goToCheckout(): void {
     this.router.navigate(['/user-data'])
   }
+
+  toggleOverlay(){
+    let overlay = document.getElementById("cart-overlay");
+    if(overlay.style.display == "none"){
+      overlay.style.display = "block";
+    }
+    else {
+      overlay.style.display = "none";
+    }
+  }
+
 }
