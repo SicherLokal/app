@@ -1,0 +1,27 @@
+.section {
+  text-align: center;
+  padding: 12px 0px 8px 0px;
+
+  &.alternative {
+    background-color: #eaeaea;
+    
+    p {
+      color: #000000;
+    }
+  }
+}
+
+.mat-form-field {
+  display:block;
+}
+
+.mat-mini-fab.mat-accent.cam-icon {
+  background-color: #eaeaea;
+  width: 80px;
+  height: 80px;
+  margin-top:20px;
+    
+  .mat-icon {
+    color: #000000;
+  }
+}

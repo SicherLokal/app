@@ -1,0 +1,57 @@
+.section {
+  text-align: center;
+  padding: 12px 0px 8px 0px;
+
+  &.alternative {
+    background-color: #eaeaea;
+    
+    p {
+      color: #000000;
+    }
+  }
+
+  &.title {
+    border-bottom:1px black solid;
+  }
+}
+
+.centered-text {
+  text-align: center;
+  margin:10px 0px;
+}
+
+.order-card {
+  margin-bottom:10px;
+
+  &:hover {
+    background-color:#eaeaea;
+    cursor:pointer;
+  }
+
+  .order-content-container {
+    display:flex;
+    position: relative;
+
+    .order-item-text {
+      flex-grow: 3;
+
+      .customer-name {
+        font-size:15px;
+        font-weight: bolder;
+      }
+    }
+
+    .order-item-time {
+      flex-grow: 1;
+
+      font-size:30px;
+      padding-top:10px;
+    }
+
+    .order-item-remove {
+      position: absolute;
+      top:0px;
+      right:0px;
+    }
+  }
+}
