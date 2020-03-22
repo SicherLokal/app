@@ -19,6 +19,11 @@
     margin-right: 20px;
     margin-bottom: 20px;
 
+    &:active {
+        background-color: $second-color;
+        color: white;
+    }
+
     img {
         height: 60px;
         width: 60px;
