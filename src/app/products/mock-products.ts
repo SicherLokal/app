@@ -26,7 +26,7 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle4',
     name: 'Apfel',
     category: 'Lebensmittel',
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.sWSPghjzvfUYfQpqXbo37wHaIo%26pid%3DApi&f=1',
+    image: 'assets/Icons/apfel.svg',
     description: 'Appel a day keeps the zombie away'
   },
   {
