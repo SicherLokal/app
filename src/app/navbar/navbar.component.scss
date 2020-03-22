@@ -3,7 +3,6 @@
 header {
     background-color: $prime-color;
     color: white;
-    width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -17,7 +16,6 @@ header {
         align-items: center;
 
         .navbar-home-icon {
-            padding-right: 10px;
     
             img {
                 height: 30px;
