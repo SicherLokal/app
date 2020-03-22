@@ -1,5 +1,5 @@
 <div class="product-list">
-  <div class="product-card" *ngFor="let product of productList" (click)="addToCart(product.id)">
+  <div class="product-card" *ngFor="let product of productList | productFilter:filterKey" (click)="addToCart(product.id)">
     <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
     <span>{{ product.name }}</span>
   </div>
