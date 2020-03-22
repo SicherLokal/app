@@ -5,6 +5,7 @@ import { UserDataComponent } from './user-data/user-data.component';
 import { CartComponent } from './cart/cart.component';
 import { PaymentSelectionComponent } from './payment-selection/payment-selection.component';
 import { UserSlotComponent } from './user-slot/user-slot.component';
+import { MarketAdminModule } from './market-admin/market-admin.module';
 
 
 const routes: Routes = [
@@ -13,6 +14,10 @@ const routes: Routes = [
   { path: 'user-data', component: UserDataComponent },
   { path: 'payment-selection', component: PaymentSelectionComponent },
   { path: 'user-slot', component: UserSlotComponent },
+  {
+    path: 'market-admin',
+    loadChildren: () => import('./market-admin/market-admin.module').then(m => m.MarketAdminModule),
+  },
   {
     path: 'market',
     loadChildren: () => import('./market/market.module').then(m => m.MarketModule),

@@ -1,12 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LandingComponent } from './landing/landing.component';
-
+import { RegistrationComponent } from './registration/registration.component';
+import { IdentificationComponent } from './identification/identification.component';
+import { ProductMaintenanceComponent } from './product-maintenance/product-maintenance.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   {
-    path: 'market-admin',
-    component: LandingComponent
+    path: 'identification',
+    component: IdentificationComponent
+  },
+  {
+    path: 'product-maintenance',
+    component: ProductMaintenanceComponent
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent
+  },
+  {
+    path: '',
+    component: RegistrationComponent
   }
 ];
 
