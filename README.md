@@ -1,5 +1,7 @@
 # Sicher & Local (Secure and local)
 
+![Mockup-App](/screenshots/banner.png)
+
 Contactless ordering, payment, provision of products for daily needs by participating local businesses infront of their store through a nationwide web-based platform.
 
 ## More Information
@@ -11,8 +13,6 @@ Contactless ordering, payment, provision of products for daily needs by particip
 [![Sicher & Local Pitch](https://img.youtube.com/vi/DU_m4T_1wV0/0.jpg)](https://www.youtube.com/watch?v=DU_m4T_1wV0)
 
 ## Screenshots
-
-![Mockup-App](/screenshots/Mockup.jpg)
 
 More screenshots can be found in [screenshots](./screenshots).
 
