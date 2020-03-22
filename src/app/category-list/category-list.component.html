@@ -1,7 +1,7 @@
 <div class="shopping-content">
   <div class="product-list-tools"> 
     <h3 class="cart-link" (click)="goToCart()">
-      {{filterKey}} Im Warenkorb: {{ this.getCartAmount() }}
+     Im Warenkorb: {{ this.getCartAmount() }}
     </h3>
     <div class="product-filter">
       <span><img src="assets/Icons/search.png"></span>
@@ -18,7 +18,9 @@
 
   <!-- <button class="mat-raised-button payment-button" (click)="goToCheckout()">Weiter zur Dateneingabe</button> -->
 
-  <div class="cart-overlay" style="position: absolute; top:50px; right:0px; background-color: white; padding:10px; border:1px grey solid; max-height: 400px; overflow:auto;">
-    <app-cart></app-cart>
+  <div class="cart-overlay" >
+    <div class="cart">
+      <app-cart></app-cart>
+    </div>
   </div>
 </div>
