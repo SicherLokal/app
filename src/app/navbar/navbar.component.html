@@ -5,7 +5,7 @@
     </div>
     <div class="navbar-cart" >
         <span (click)="toggleOverlay()" *ngIf="showCart | async">
-            <mat-icon [matBadge]="getCartAmount()">shopping_cart</mat-icon>
+            <mat-icon [matBadge]="getCartAmount()" matBadgeColor="accent">shopping_cart</mat-icon>
         </span>
     </div>    
 </header>
