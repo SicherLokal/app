@@ -1,5 +1,8 @@
 # Sicher & Local (Secure and local)
-## Contactless ordering, payment, provision of products for daily needs by participating local businesses infront of their store through a nationwide web-based platform.
+
+Contactless ordering, payment, provision of products for daily needs by participating local businesses infront of their store through a nationwide web-based platform.
+
+## More Information
 
 [Devpost (German)](https://devpost.com/software/033_lebensnotwendigedienstleistungen_-handel-n-vsvirus)
 
@@ -10,6 +13,9 @@
 ## Screenshots
 
 ![Mockup-App](/screenshots/Mockup.jpg)
+
+More screenshots can be found in [screenshots](./screenshots).
+
 
 ## Getting Started
 
