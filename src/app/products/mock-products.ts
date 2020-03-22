@@ -5,21 +5,21 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle1',
     name: 'Pesto-Paket',
     category: 'Standardpaket',
-    image: '/assets/Icons/standard-hamsterlasagne.svg',
+    image: 'assets/Icons/standard-hamsterlasagne.svg',
     description: 'Pesto'
   },
   {
     id: 'bundle2',
     name: 'Hygiene-Paket',
     category: 'Standardpaket',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Hygiene'
   },
   {
     id: 'bundle3',
     name: 'Survival-Paket',
     category: 'Standardpaket',
-    image: '/assets/Icons/standard-haltbar.svg',
+    image: 'assets/Icons/standard-haltbar.svg',
     description: 'Für wenn die Zombies kommen'
   },
   {
@@ -47,49 +47,49 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle7',
     name: 'Klopapier XS',
     category: 'Hygiene',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Jeder nur ein Blatt!'
   },
   {
     id: 'bundle8',
     name: 'Klopapier S',
     category: 'Hygiene',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle9',
     name: 'Klopapier M',
     category: 'Hygiene',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle10',
     name: 'Klopapier L',
     category: 'Hygiene',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle11',
     name: 'Klopapier XL',
     category: 'Hygiene',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle12',
     name: 'Klopapier XXL',
     category: 'Hygiene',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle13',
     name: 'Klopapier XXXL',
     category: 'Hygiene',
-    image: '/assets/Icons/toilettenpapier.svg',
+    image: 'assets/Icons/toilettenpapier.svg',
     description: 'Es ist genug für alle da!'
   },
   {
@@ -110,70 +110,70 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle16',
     name: 'lecker & gesund',
     category: 'Standardpaket',
-    image: '/assets/Icons/standard-gemuese.svg',
+    image: 'assets/Icons/standard-gemuese.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle17',
     name: 'gesund & lecker',
     category: 'Standardpaket',
-    image: '/assets/Icons/standard-gemuese.svg',
+    image: 'assets/Icons/standard-gemuese.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle18',
     name: 'Gute Laune',
     category: 'Standardpaket',
-    image: '/assets/Icons/standard-gutelaune.svg',
+    image: 'assets/Icons/standard-gutelaune.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle19',
     name: 'Bacon',
     category: 'Lebensmittel',
-    image: '/assets/Icons/bacon.svg',
+    image: 'assets/Icons/bacon.svg',
     description: 'Appel a day keeps the zombie away'
   },
   {
     id: 'bundle20',
     name: 'Milch',
     category: 'Lebensmittel',
-    image: '/assets/Icons/milkbottle.svg',
+    image: 'assets/Icons/milkbottle.svg',
     description: 'Banana!'
   },
   {
     id: 'bundle21',
     name: 'Toast',
     category: 'Lebensmittel',
-    image: '/assets/Icons/toast-bread.svg',
+    image: 'assets/Icons/toast-bread.svg',
     description: 'Toasty!!'
   },
   {
     id: 'bundle22',
     name: 'Brokkoli',
     category: 'Lebensmittel',
-    image: '/assets/Icons/brokkoli.svg',
+    image: 'assets/Icons/brokkoli.svg',
     description: 'Toasty!!'
   },
   {
     id: 'bundle23',
     name: 'Karotten',
     category: 'Lebensmittel',
-    image: '/assets/Icons/karotte.svg',
+    image: 'assets/Icons/karotte.svg',
     description: 'Toasty!!'
   },
   {
     id: 'bundle24',
     name: 'Tetrapack',
     category: 'Lebensmittel',
-    image: '/assets/Icons/tetrapak.svg',
+    image: 'assets/Icons/tetrapak.svg',
     description: 'Toasty!!'
   },
   {
     id: 'bundle25',
     name: 'Tomaten',
     category: 'Lebensmittel',
-    image: '/assets/Icons/tomaten.svg',
+    image: 'assets/Icons/tomaten.svg',
     description: 'Toasty!!'
   },
 ];
