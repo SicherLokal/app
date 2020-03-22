@@ -33,4 +33,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         npm install
-        npm run ng -- deploy --repo=https://github.com/SicherLokal/SicherLokal.github.io.git --name="Nils Margotti" --email="nilsmargotti@gmail.com" --no-silent
+        npm run ng -- deploy --base-href=/app/ --name="Nils Margotti" --email="nilsmargotti@gmail.com" --no-silent
