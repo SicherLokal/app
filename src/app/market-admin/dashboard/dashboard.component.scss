@@ -23,6 +23,11 @@
 .order-card {
   margin-bottom:10px;
 
+  &:hover {
+    background-color:#eaeaea;
+    cursor:pointer;
+  }
+
   .order-content-container {
     display:flex;
     position: relative;
