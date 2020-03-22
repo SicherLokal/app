@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { OrderService } from '../order-service/order.service';
+import { Order } from '../order-service/order';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,19 +9,17 @@ import { Router } from '@angular/router';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-  orders: string[]
+  orders: Order[]
   router: Router;
+  orderService: OrderService
 
-  constructor(_router: Router) {
+  constructor(_router: Router, _orderService: OrderService) {
     this.router = _router; 
+    this.orderService = _orderService;
   }
 
   ngOnInit(): void {
-    this.orders = [];
-    this.orders.push("test");
-    this.orders.push("testsst");
-    this.orders.push("testsst");
-    this.orders.push("testsst");
+    this.orders = this.orderService.getOrders();
   }
 
   goToPicker(): void {

@@ -29,6 +29,11 @@
 
     .order-item-text {
       flex-grow: 3;
+
+      .customer-name {
+        font-size:15px;
+        font-weight: bolder;
+      }
     }
 
     .order-item-time {

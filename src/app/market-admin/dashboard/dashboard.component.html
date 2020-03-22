@@ -9,11 +9,11 @@
     <mat-card-content>
       <div class="order-content-container">
         <div class="order-item-text">
-          Name Kunde<br>
-          Einkaufs-ID:
+          <div class="customer-name">{{orderItem.name}}</div>
+          Einkaufs-ID: {{orderItem.id}}
         </div>
         <div class="order-item-time">
-          15:00
+          {{orderItem.time}}
         </div>
         <div class="order-item-remove">
           X
