@@ -4,7 +4,7 @@
         <div class="navbar-title">Handel(n)VsVirus</div>
     </div>
     <div class="navbar-cart" ><img src="assets/Icons/shopping-cart.png"></div>
-    <span>
-        {{ this.getCartAmount() }}
+    <span *ngIf="showCart | async">
+        <mat-icon [matBadge]="getCartAmount()">shopping_cart</mat-icon>
     </span>
 </header>

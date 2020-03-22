@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatBadgeModule } from '@angular/material/badge';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { ProductListComponent } from './product-list/product-list.component';
@@ -44,6 +45,7 @@ import { FlowButtonsComponent } from './flow-buttons/flow-buttons.component';
     FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatBadgeModule,
     MatCardModule,
     MatInputModule,
     MatFormFieldModule,
