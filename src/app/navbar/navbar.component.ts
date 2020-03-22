@@ -34,7 +34,8 @@ export class NavbarComponent implements OnInit {
 
   toggleOverlay(){
     let overlay = document.getElementById("cart-overlay");
-    if(overlay.style.display == "none"){
+
+    if(overlay.style.display == "none" || !overlay.style.display){
       overlay.style.display = "block";
     }
     else {
