@@ -5,7 +5,7 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle1',
     name: 'Basic',
     category: 'Pakete',
-    image: 'assets/Icons/standard-hamsterlasagne.svg',
+    image: 'assets/Icons/basicbrotwurst.svg',
     description: 'Pesto'
   },
   {
@@ -107,6 +107,13 @@ export var MOCK_PRODUCTS: Product[] = [
     description: 'Appel a day keeps the zombie away'
   },
   {
+    id: 'bundle28',
+    name: 'Brot',
+    category: 'Lebensmittel',
+    image: 'assets/Icons/brot.svg',
+    description: 'Toasty!!'
+  },
+  {
     id: 'bundle20',
     name: 'Milch',
     category: 'Lebensmittel',
@@ -146,6 +153,41 @@ export var MOCK_PRODUCTS: Product[] = [
     name: 'Tomaten',
     category: 'Lebensmittel',
     image: 'assets/Icons/tomaten.svg',
+    description: 'Toasty!!'
+  },
+  {
+    id: 'bundle26',
+    name: 'Wurst',
+    category: 'Lebensmittel',
+    image: 'assets/Icons/wurst.svg',
+    description: 'Toasty!!'
+  },
+  {
+    id: 'bundle27',
+    name: 'Wasser',
+    category: 'Lebensmittel',
+    image: 'assets/Icons/wasser.svg',
+    description: 'Toasty!!'
+  },
+  {
+    id: 'bundle28',
+    name: 'Hipsterdrank',
+    category: 'Lebensmittel',
+    image: 'assets/Icons/hipsterdrank.svg',
+    description: 'Toasty!!'
+  },
+  {
+    id: 'bundle29',
+    name: 'Getränke',
+    category: 'Pakete',
+    image: 'assets/Icons/basicgetraenke.svg',
+    description: 'Toasty!!'
+  },
+  {
+    id: 'bundle30',
+    name: 'Käse',
+    category: 'Lebensmittel',
+    image: 'assets/Icons/kaese.svg',
     description: 'Toasty!!'
   },
 ];
