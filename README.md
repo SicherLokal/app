@@ -74,7 +74,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 * **Nils-Börge Margotti** - [Nols1000](https://github.com/Nols1000)
 * **Paul Schreiber** - [PaulSchreiber96](https://github.com/PaulSchreiber96)
 * **Phil Wornath** - [philffm](https://github.com/philffm)
-* **Fernando Saba** - [Lamaun](https://github.com/Lamaun)
+* **Fernando Saba** - [seffplusplus](https://github.com/seffplusplus)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
