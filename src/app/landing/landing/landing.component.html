@@ -1,4 +1,34 @@
-<div style="display: flex; flex-direction: column;">
-    <button class="call-to-action-button" mat-raised-button  [routerLink]="['/market/search']">Einkaufen</button>
-    <button class="call-to-action-button" mat-raised-button  [routerLink]="['/pick/requests']">Markt registrieren</button>
+<div style="display: flex; flex-direction: column; ">
+    <section  class="greeting-section">
+        <h2>Effizient & Sicher</h2>
+        <p>
+            Du brauchst Hilfe beim Einkaufen?<br>
+            Dann bist du hier richtig!<br>
+            Dein Einkauf wird im Markt vorgepackt und du holst ihn dann kontaktlos vom Markt ab.
+        </p>
+    </section>
+    <section class="shopping-section">
+        <div>
+            <div>
+                <h2>
+                    Einkaufen
+                </h2>
+                <p>
+                    Finde deinen Markt und stelle deinen einkauf zusammen.
+                </p>
+            </div>     
+            <img src="assets/Icons/oma.svg">
+        </div>
+        <button class="call-to-action-button" mat-raised-button  [routerLink]="['/market/search']">Jetzt Einkaufen</button>   
+    </section>
+    <section class="registration-section">
+        <h2>
+            Markt registrieren
+        </h2>
+        <p>
+            Dein Markt möchte den kontaktlosen Einkauf für Kunden anbieten?<br>
+            Los gehts!
+        </p>
+        <button class="call-to-action-button" mat-raised-button  [routerLink]="['/pick/requests']">Markt registrieren</button>
+    </section>     
 </div>
