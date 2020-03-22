@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "deploy": "ng deploy --base-href=/app/",
+    "deploy:prod": "ng deploy --repo=git@github.com:SicherLokal/SicherLokal.github.io.git --branch=master",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
