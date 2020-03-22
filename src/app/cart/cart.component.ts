@@ -36,10 +36,6 @@ export class CartComponent implements OnInit {
     return this.productService.getProduct(productId);
   }
 
-  goToCheckout(): void {
-    this.router.navigate(['/user-data'])
-  }
-
   removeFromCart(cartItemId: string): void {
     this.cartService.removeCartItem(cartItemId);
     this.cart = this.cartService.getCart();

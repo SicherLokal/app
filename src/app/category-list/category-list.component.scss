@@ -1,0 +1,52 @@
+@import "../../styles.scss";
+
+.product-list-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .cart-link {
+       align-self: flex-end;
+    }
+
+    .product-filter {
+
+        width: 100%;
+        max-width: 500px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px;
+        box-shadow: 0 3px 7px rgba(0,0,0,0.25);
+        border-radius: 4px;
+        margin-bottom: 30px;
+    
+        span {
+            padding-right: 5px;
+            img {
+                height: 20px;
+                opacity: 70%;
+            }
+        }    
+    
+        input {
+            width: 100%;
+            height: 30px;        
+            border: none;        
+        }
+    }
+}
+
+.payment-button {
+    background-color: $prime-color;
+    color: white;
+    float: right;
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    border-radius: 30px;
+    height: 30px;
+    border: none;
+}
+

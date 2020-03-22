@@ -11,6 +11,7 @@ import { Product } from '../products/product';
 
 export class ProductListComponent implements OnInit {
   @Input() category: string;
+  @Input() filterKey: string;
 
   productList: Product[]
   cartService: CartService

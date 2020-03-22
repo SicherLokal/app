@@ -12,6 +12,7 @@ export class CategoryListComponent implements OnInit {
   categoryList: string[];
   cartService: CartService;
   router: Router;
+  filterKey: string;
 
   constructor(productService: ProductService, _cartService: CartService, _router: Router) {
     this.categoryList = productService.getProductCategories();
@@ -33,5 +34,9 @@ export class CategoryListComponent implements OnInit {
 
   goToCart(): void {
     this.router.navigate(['/cart'])
+  }
+  
+  goToCheckout(): void {
+    this.router.navigate(['/user-data'])
   }
 }
