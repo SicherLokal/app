@@ -3,21 +3,21 @@ import { Product } from './product';
 export var MOCK_PRODUCTS: Product[] = [
   {
     id: 'bundle1',
-    name: 'Pesto-Paket',
+    name: 'Basic',
     category: 'Pakete',
     image: 'assets/Icons/standard-hamsterlasagne.svg',
     description: 'Pesto'
   },
   {
     id: 'bundle2',
-    name: 'Hygiene-Paket',
+    name: 'Hygiene',
     category: 'Pakete',
     image: 'assets/Icons/toilettenpapier.svg',
     description: 'Hygiene'
   },
   {
     id: 'bundle3',
-    name: 'Survival-Paket',
+    name: 'Survival',
     category: 'Pakete',
     image: 'assets/Icons/standard-haltbar.svg',
     description: 'Für wenn die Zombies kommen'
@@ -26,7 +26,7 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle4',
     name: 'Apfel',
     category: 'Lebensmittel',
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.sWSPghjzvfUYfQpqXbo37wHaIo%26pid%3DApi&f=1',
+    image: 'assets/Icons/apfel.svg',
     description: 'Appel a day keeps the zombie away'
   },
   {
@@ -35,13 +35,6 @@ export var MOCK_PRODUCTS: Product[] = [
     category: 'Lebensmittel',
     image: 'assets/Icons/banana.svg',
     description: 'Banana!'
-  },
-  {
-    id: 'bundle6',
-    name: 'Granatapfel',
-    category: 'Lebensmittel',
-    image: 'https://material.angular.ioassets/img/examples/shiba2.jpg',
-    description: 'Grenade!'
   },
   {
     id: 'bundle7',
@@ -94,14 +87,7 @@ export var MOCK_PRODUCTS: Product[] = [
   },
   {
     id: 'bundle16',
-    name: 'lecker & gesund',
-    category: 'Pakete',
-    image: 'assets/Icons/standard-gemuese.svg',
-    description: 'Es ist genug für alle da!'
-  },
-  {
-    id: 'bundle17',
-    name: 'gesund & lecker',
+    name: 'Veggie',
     category: 'Pakete',
     image: 'assets/Icons/standard-gemuese.svg',
     description: 'Es ist genug für alle da!'
