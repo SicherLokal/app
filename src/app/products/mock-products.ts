@@ -4,21 +4,21 @@ export var MOCK_PRODUCTS: Product[] = [
   {
     id: 'bundle1',
     name: 'Pesto-Paket',
-    category: 'Standardpaket',
+    category: 'Pakete',
     image: 'assets/Icons/standard-hamsterlasagne.svg',
     description: 'Pesto'
   },
   {
     id: 'bundle2',
     name: 'Hygiene-Paket',
-    category: 'Standardpaket',
+    category: 'Pakete',
     image: 'assets/Icons/toilettenpapier.svg',
     description: 'Hygiene'
   },
   {
     id: 'bundle3',
     name: 'Survival-Paket',
-    category: 'Standardpaket',
+    category: 'Pakete',
     image: 'assets/Icons/standard-haltbar.svg',
     description: 'Für wenn die Zombies kommen'
   },
@@ -93,37 +93,23 @@ export var MOCK_PRODUCTS: Product[] = [
     description: 'Es ist genug für alle da!'
   },
   {
-    id: 'bundle14',
-    name: '1 nicer Hund',
-    category: 'Tiere',
-    image: 'https://material.angular.ioassets/img/examples/shiba1.jpg',
-    description: 'Es ist genug für alle da!'
-  },
-  {
-    id: 'bundle15',
-    name: 'anderer Hund',
-    category: 'Tiere',
-    image: 'https://material.angular.ioassets/img/examples/shiba2.jpg',
-    description: 'Es ist genug für alle da!'
-  },
-  {
     id: 'bundle16',
     name: 'lecker & gesund',
-    category: 'Standardpaket',
+    category: 'Pakete',
     image: 'assets/Icons/standard-gemuese.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle17',
     name: 'gesund & lecker',
-    category: 'Standardpaket',
+    category: 'Pakete',
     image: 'assets/Icons/standard-gemuese.svg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle18',
     name: 'Gute Laune',
-    category: 'Standardpaket',
+    category: 'Pakete',
     image: 'assets/Icons/standard-gutelaune.svg',
     description: 'Es ist genug für alle da!'
   },

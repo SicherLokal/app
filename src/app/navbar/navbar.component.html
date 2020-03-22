@@ -1,10 +1,11 @@
 <header>
     <div>
         <div class="navbar-home-icon"><a [routerLink]="['/']"><img src="assets/Icons/basket.png"></a></div>
-        <div class="navbar-title">Handel(n)VsVirus</div>
+        <div class="navbar-title">SicherLokal</div>
     </div>
-    <div class="navbar-cart" ><img src="assets/Icons/shopping-cart.png"></div>
-    <span>
-        {{ this.getCartAmount() }}
-    </span>
+    <div class="navbar-cart" >
+        <span (click)="toggleOverlay()" *ngIf="showCart | async">
+            <mat-icon [matBadge]="getCartAmount()" matBadgeColor="accent">shopping_cart</mat-icon>
+        </span>
+    </div>    
 </header>

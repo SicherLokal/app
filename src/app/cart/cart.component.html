@@ -1,3 +1,4 @@
+<h2>Warenkorb:</h2>
 <div class="card-container">
   <mat-card class="cart-card" *ngFor="let cartItem of cart">
     <mat-card-content>
@@ -5,7 +6,7 @@
         <div class="cart-item-image">    
           <img [src]="productList[cartItem.productId].image" [alt]="productList[cartItem.productId].name"></div>
         <div class="cart-item-text">
-          {{productList[cartItem.productId].name}}<br>
+          <span>{{productList[cartItem.productId].name}}</span><br>
           Menge: {{cartItem.amount}}
         </div>
         <div class="cart-item-remove" (click)="removeFromCart(cartItem.id)">
