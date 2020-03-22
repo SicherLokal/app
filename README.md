@@ -1,27 +1,80 @@
-# App
+# Sicher & Local (Secure and local)
+## An app to reduce the contact needed to shop for food in your local market
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+[Devpost (German)](https://devpost.com/software/033_lebensnotwendigedienstleistungen_-handel-n-vsvirus)
 
-## Development server
+## Introduction Video (German)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[![Sicher & Local Pitch](https://img.youtube.com/vi/DU_m4T_1wV0/0.jpg)](https://www.youtube.com/watch?v=DU_m4T_1wV0)
 
-## Code scaffolding
+## Screenshots
+![Sicher & Local Pitch](./screenshots/screenshot_landing.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Prerequisites
 
-## Running unit tests
+* Node.js 10+ and npm
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installing
 
-## Running end-to-end tests
+First install all dependencies with npm
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+npm install
+```
 
-## Further help
+Now you can start the development server with
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+npm start
+```
+
+Now you should be able to view the application at [localhost:4200](http://localhost:4200)
+
+## Running the tests
+
+Unfortunatly there are no tests at the moment. Be the first to submit tests. Read our [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Deployment
+
+### Staging
+The application is deployed to [sicherlokal.github.io/app](https://sicherlokal.github.io/app/) via github actions and [angular-schule/angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages/#readme).
+
+```
+npm run deploy
+```
+
+### Production
+The application is deployed to [sicherlokal.github.io](https://sicherlokal.github.io) by hand with help from [angular-schule/angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages/#readme).
+
+```
+npm run deploy:prod
+```
+
+## Built With
+
+* [Angular](https://angular.io) - The single page application framework
+* [Angular Material](https://material.angular.io/) - Material Design components for Angular
+
+## Contributing
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Nils-Börge Margotti** - [Nols1000](https://github.com/Nols1000)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This code is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+The Assets are licensed under - see []() for details.
+
+## Acknowledgments
+
+* 
+
