@@ -64,7 +64,11 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 
 ## Authors
 
+* **Matthias Bruch** - [matthiasbruch](https://github.com/matthiasbruch)
 * **Nils-Börge Margotti** - [Nols1000](https://github.com/Nols1000)
+* **Paul Schreiber** - [PaulSchreiber96](https://github.com/PaulSchreiber96)
+* **Phil Wornath** - [philffm](https://github.com/philffm)
+* **Fernando Saba** - [Lamaun](https://github.com/Lamaun)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -72,9 +76,11 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 This code is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-The Assets are licensed under - see []() for details.
+The Asset [Logo-new.png](./src/assets/Logo-new.png) is licensed under  - see []() for details.   
+The Asset [toilettenpapier.svg](./src/assets/toilettenpapier.svb) is licensed under the MIT License - see [designmodo/Flat-UI/LICENSE](https://raw.githubusercontent.com/designmodo/Flat-UI/master/LICENSE) for details.   
+All other Assets are licensed under Envato Elements License - see [Envato Elements License](https://elements.envato.com/license-terms) for details.
 
 ## Acknowledgments
 
-* 
+* [#WirVsVirus](https://wirvsvirushackathon.org/?lang=en) - This app was started as a Solution to the Challenge 33_LebensnotwendigeDienstleistungen
 
