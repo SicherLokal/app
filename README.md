@@ -9,6 +9,7 @@
 
 ## Screenshots
 
+![Mockup-App](/screenshots/Mockup-github.jpg)
 
 ## Getting Started
 
