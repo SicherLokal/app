@@ -8,7 +8,6 @@
 .product-card {
     height: 100px;
     width: 100px;
-    padding: 5px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 3px 7px rgba(0,0,0,0.19);
@@ -26,14 +25,13 @@
     }
 
     img {
+        margin-top: 10px;
         height: 40px;
         width: 40px;
-        margin-bottom: 10px;
     }
 
     span {
         color: rgba(23, 23, 23, 0.85);
-        height: 40px;
         text-align: center;
     }
 }
@@ -41,8 +39,5 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-    .product-card {
-        height: 25%;
-        width: 25%;
-    }
+  
   }
