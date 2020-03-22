@@ -1,0 +1,26 @@
+<div class="section alternative title">
+  <h2>Denn's Biomarkt</h2>
+</div>
+
+<div class="centered-text">Übersicht Bestellungen</div>
+
+<div class="card-container">
+  <mat-card class="order-card" *ngFor="let orderItem of orders" (click)="goToPicker()">
+    <mat-card-content>
+      <div class="order-content-container">
+        <div class="order-item-text">
+          Name Kunde<br>
+          Einkaufs-ID:
+        </div>
+        <div class="order-item-time">
+          15:00
+        </div>
+        <div class="order-item-remove">
+          X
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <div style="clear:both;"></div>
+</div>
