@@ -9,7 +9,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { ProductListComponent } from './product-list/product-list.component';
 import { CategoryListComponent } from './category-list/category-list.component';
-import { UserLocationComponent } from './user-location/user-location.component';
 import { UserDataComponent } from './user-data/user-data.component';
 import { CartComponent } from './cart/cart.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -20,7 +19,6 @@ import { PaymentSelectionComponent } from './payment-selection/payment-selection
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { UserSlotComponent } from './user-slot/user-slot.component';
-import { MarketTileComponent } from './user-location/market-tile/market-tile.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProductFilterPipe } from './ProductFilterPipe';
 
@@ -30,14 +28,12 @@ import { ProductFilterPipe } from './ProductFilterPipe';
     AppComponent,
     ProductListComponent,
     CategoryListComponent,
-    UserLocationComponent,
     UserDataComponent,
     CartComponent,
     NavbarComponent,
     FooterComponent,
     PaymentSelectionComponent,
     UserSlotComponent,
-    MarketTileComponent,
     ProductFilterPipe
   ],
   imports: [
