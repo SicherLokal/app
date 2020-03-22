@@ -7,7 +7,7 @@
     <input type="text" [(ngModel)]="filterKey" placeholder="Suche nach einem Artikel" />
   </div>
 </div>
-<div *ngFor="let category of categoryList">
+<div class="category-list" *ngFor="let category of categoryList">
   <h2>{{ category }}</h2>
 
   <app-product-list [category]="category" [filterKey]="filterKey" *ngIf="category"></app-product-list>
