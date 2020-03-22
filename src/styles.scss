@@ -51,5 +51,26 @@ body {
         max-width: 1200px;
         margin: auto;
     }
+
+
+    h1,h2,h3,h4,h5,h6 {
+        color: rgba(23, 23, 23, 0.85) !important;
+        font-family: 'Roboto' !important;
+        font-weight: 400 !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    p{
+        color: rgba(0, 0, 0, 0.38);
+    }
+
+    span {
+        color: rgba(23, 23, 23, 0.85);
+    }
+
+
 }
 
