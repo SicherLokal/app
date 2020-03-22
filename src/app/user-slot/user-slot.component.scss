@@ -1,16 +1,22 @@
-.slot-info-card {
-  width:200px;
-  margin-right:20px;
-  margin-bottom: 20px;
+.slot-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  .headline {
-    font-weight: bolder;
-    margin-bottom:5px;
-  }
-
-  .big-time {
-    text-align: center;
-    font-size: 40px;
-    margin: 20px 0px 20px 0px;
+  .slot-info-card {
+    width:200px;
+    margin-right:20px;
+    margin-bottom: 20px;
+  
+    .headline {
+      font-weight: bolder;
+      margin-bottom:5px;
+    }
+  
+    .big-time {
+      text-align: center;
+      font-size: 40px;
+      margin: 20px 0px 20px 0px;
+    }
   }
 }
