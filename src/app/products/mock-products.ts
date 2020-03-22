@@ -3,21 +3,21 @@ import { Product } from './product';
 export var MOCK_PRODUCTS: Product[] = [
   {
     id: 'bundle1',
-    name: 'Pesto-Paket',
+    name: 'Basic',
     category: 'Pakete',
     image: 'assets/Icons/standard-hamsterlasagne.svg',
     description: 'Pesto'
   },
   {
     id: 'bundle2',
-    name: 'Hygiene-Paket',
+    name: 'Hygiene',
     category: 'Pakete',
     image: 'assets/Icons/toilettenpapier.svg',
     description: 'Hygiene'
   },
   {
     id: 'bundle3',
-    name: 'Survival-Paket',
+    name: 'Survival',
     category: 'Pakete',
     image: 'assets/Icons/standard-haltbar.svg',
     description: 'Für wenn die Zombies kommen'
@@ -87,14 +87,7 @@ export var MOCK_PRODUCTS: Product[] = [
   },
   {
     id: 'bundle16',
-    name: 'lecker & gesund',
-    category: 'Pakete',
-    image: 'assets/Icons/standard-gemuese.svg',
-    description: 'Es ist genug für alle da!'
-  },
-  {
-    id: 'bundle17',
-    name: 'gesund & lecker',
+    name: 'Veggie',
     category: 'Pakete',
     image: 'assets/Icons/standard-gemuese.svg',
     description: 'Es ist genug für alle da!'
