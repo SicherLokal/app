@@ -37,13 +37,6 @@ export var MOCK_PRODUCTS: Product[] = [
     description: 'Banana!'
   },
   {
-    id: 'bundle6',
-    name: 'Granatapfel',
-    category: 'Lebensmittel',
-    image: 'https://material.angular.ioassets/img/examples/shiba2.jpg',
-    description: 'Grenade!'
-  },
-  {
     id: 'bundle7',
     name: 'Klopapier XS',
     category: 'Hygiene',
