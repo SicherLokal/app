@@ -1,6 +1,16 @@
 .location-intro {
-    p {
-        text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    div {
+        width: 60%;
+    }
+    
+    img {
+        margin-left: 10px;
+        width: 35%;
     }
 }
 
