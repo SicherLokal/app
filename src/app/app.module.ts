@@ -23,6 +23,7 @@ import { UserSlotComponent } from './user-slot/user-slot.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProductFilterPipe } from './ProductFilterPipe';
 import { FlowButtonsComponent } from './flow-buttons/flow-buttons.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { FlowButtonsComponent } from './flow-buttons/flow-buttons.component';
     MatButtonModule,
     MatIconModule,
     MatButtonToggleModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
