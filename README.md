@@ -1,5 +1,5 @@
 # Sicher & Local (Secure and local)
-## An app to reduce the contact needed to shop for food in your local market
+## Contactless ordering, payment, provision of products for daily needs by participating local businesses infront of their store through a nationwide web-based platform.
 
 [Devpost (German)](https://devpost.com/software/033_lebensnotwendigedienstleistungen_-handel-n-vsvirus)
 
@@ -8,7 +8,7 @@
 [![Sicher & Local Pitch](https://img.youtube.com/vi/DU_m4T_1wV0/0.jpg)](https://www.youtube.com/watch?v=DU_m4T_1wV0)
 
 ## Screenshots
-![Sicher & Local Pitch](./screenshots/screenshot_landing.png)
+![Sicher & Local Pitch](./screenshots/screenshot_landing.png | width=100)
 
 
 ## Getting Started
