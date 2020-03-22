@@ -3,9 +3,9 @@
     <mat-card-content>
       <div class="cart-content-container">
         <div class="cart-item-image">    
-          <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"></div>
+          <img [src]="productList[cartItem.productId].image" [alt]="productList[cartItem.productId].name"></div>
         <div class="cart-item-text">
-          {{getProduct(cartItem.productId).name}}<br>
+          {{productList[cartItem.productId].name}}<br>
           Menge: {{cartItem.amount}}
         </div>
         <div class="cart-item-remove" (click)="removeFromCart(cartItem.id)">

@@ -16,7 +16,7 @@ export class CartComponent implements OnInit {
   productService: ProductService;
   cartService: CartService;
   cart: CartItem[];
-  productList: Product[];
+  productList: any;
 
   constructor(
     _router: Router, 
@@ -30,6 +30,10 @@ export class CartComponent implements OnInit {
 
   ngOnInit(): void {
     this.cart = this.cartService.getCart();
+    
+    var tempProdList = this.productService.getProducts();
+    this.productList = {};
+    tempProdList.forEach(p => this.productList[p.id] = p);
   }
 
   getProduct(productId: string): Product {

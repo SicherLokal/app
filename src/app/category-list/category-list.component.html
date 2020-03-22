@@ -13,5 +13,8 @@
   <app-product-list [category]="category" [filterKey]="filterKey" *ngIf="category"></app-product-list>
 </div>
 
-
 <button class="mat-raised-button payment-button" (click)="goToCheckout()">Weiter zur Dateneingabe</button>
+
+<div class="cart-overlay" style="position: absolute; top:50px; right:0px; background-color: white; padding:10px; border:1px grey solid; max-height: 400px; overflow:auto;">
+  <app-cart></app-cart>
+</div>
