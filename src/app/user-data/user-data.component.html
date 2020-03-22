@@ -28,6 +28,9 @@
       <textarea matInput placeholder=""></textarea>
     </mat-form-field>
 
-    <button mat-raised-button color="primary" (click)="goToPaymentSelection()">Weiter</button>
+
+    <app-flow-buttons backwardUrl="/product-list" forwardUrl="/payment-selection"></app-flow-buttons>
+
+    <!-- <button mat-raised-button color="primary" (click)="goToPaymentSelection()">Weiter</button> -->
   </form>
 </div>

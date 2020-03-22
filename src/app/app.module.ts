@@ -21,6 +21,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { UserSlotComponent } from './user-slot/user-slot.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProductFilterPipe } from './ProductFilterPipe';
+import { FlowButtonsComponent } from './flow-buttons/flow-buttons.component';
 
 
 @NgModule({
@@ -34,7 +35,9 @@ import { ProductFilterPipe } from './ProductFilterPipe';
     FooterComponent,
     PaymentSelectionComponent,
     UserSlotComponent,
-    ProductFilterPipe
+    ProductFilterPipe,
+    // MarketTileComponent,
+    FlowButtonsComponent
   ],
   imports: [
     BrowserModule,
