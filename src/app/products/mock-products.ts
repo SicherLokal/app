@@ -33,14 +33,14 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle5',
     name: 'Banane',
     category: 'Lebensmittel',
-    image: '/assets/Icons/banana.svg',
+    image: 'assets/Icons/banana.svg',
     description: 'Banana!'
   },
   {
     id: 'bundle6',
     name: 'Granatapfel',
     category: 'Lebensmittel',
-    image: 'https://material.angular.io/assets/img/examples/shiba2.jpg',
+    image: 'https://material.angular.ioassets/img/examples/shiba2.jpg',
     description: 'Grenade!'
   },
   {
@@ -96,14 +96,14 @@ export var MOCK_PRODUCTS: Product[] = [
     id: 'bundle14',
     name: '1 nicer Hund',
     category: 'Tiere',
-    image: 'https://material.angular.io/assets/img/examples/shiba1.jpg',
+    image: 'https://material.angular.ioassets/img/examples/shiba1.jpg',
     description: 'Es ist genug für alle da!'
   },
   {
     id: 'bundle15',
     name: 'anderer Hund',
     category: 'Tiere',
-    image: 'https://material.angular.io/assets/img/examples/shiba2.jpg',
+    image: 'https://material.angular.ioassets/img/examples/shiba2.jpg',
     description: 'Es ist genug für alle da!'
   },
   {
