@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { CartItem } from './cart-item';
 import { Product } from '../products/product';
 import { ProductService } from '../products/product.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,7 @@ export class CartService {
 
   cart: CartItem[];
 
-  constructor() { 
+  constructor(private snackBar: MatSnackBar, private productService: ProductService) { 
     this.loadDataFromLocalStore();
   }
 
@@ -37,6 +38,11 @@ export class CartService {
     else {
       foundProduct.amount++;
     }
+
+    this.snackBar.open('Added ' + this.productService.getProduct(productId).name + ' to cart.', null, {
+      duration: 2500,
+      panelClass: "snackPanel"
+    });
 
     this.saveDataToLocalStore();
   }
