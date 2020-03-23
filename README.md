@@ -1,5 +1,10 @@
 # Sicher & Local (Secure and local)
-## Contactless ordering, payment, provision of products for daily needs by participating local businesses infront of their store through a nationwide web-based platform.
+
+![Mockup-App](/screenshots/banner.png)
+
+Contactless ordering, payment, provision of products for daily needs by participating local businesses infront of their store through a nationwide web-based platform.
+
+## More Information
 
 [Devpost (German)](https://devpost.com/software/033_lebensnotwendigedienstleistungen_-handel-n-vsvirus)
 
@@ -9,7 +14,8 @@
 
 ## Screenshots
 
-![Mockup-App](/screenshots/Mockup-App.jpg)
+More screenshots can be found in [screenshots](./screenshots).
+
 
 ## Getting Started
 
@@ -68,7 +74,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 * **Nils-Börge Margotti** - [Nols1000](https://github.com/Nols1000)
 * **Paul Schreiber** - [PaulSchreiber96](https://github.com/PaulSchreiber96)
 * **Phil Wornath** - [philffm](https://github.com/philffm)
-* **Fernando Saba** - [Lamaun](https://github.com/Lamaun)
+* **Fernando Saba** - [seffplusplus](https://github.com/seffplusplus)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
