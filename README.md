@@ -76,7 +76,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 * **Phil Wornath** - [philffm](https://github.com/philffm)
 * **Fernando Saba** - [seffplusplus](https://github.com/seffplusplus)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/SicherLokal/app/graphs/contributors) who participated in this project.
 
 ## License
 
