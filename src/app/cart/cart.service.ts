@@ -39,7 +39,7 @@ export class CartService {
       foundProduct.amount++;
     }
 
-    this.snackBar.open(this.productService.getProduct(productId).name + ' wurde zum Einkaufswagen hinzugefügen.', null, {
+    this.snackBar.open(this.productService.getProduct(productId).name + ' wurde zum Einkaufswagen hinzugefügt.', null, {
       duration: 2500,
       panelClass: "snackPanel"
     });
